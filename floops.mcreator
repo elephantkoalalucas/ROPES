@@ -413,6 +413,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Item1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/Item1Item.java",
+          "src/main/resources/assets/floops/models/item/item_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -472,6 +485,7 @@
       "item.floops.silver_armor_boots": "Silver Boots",
       "item.floops.silver_armor_chestplate": "Silver Chestplate",
       "item.floops.laser_crystal": "Laser Crystal",
+      "item.floops.item_1": "Item 1",
       "item.floops.laser_blade": "Laser Blade",
       "item.floops.silver_pickaxe": "Silver Pickaxe",
       "item.floops.silver_ingot": "Silver",
