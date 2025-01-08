@@ -1,0 +1,57 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "laserbow_texture_tool",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Laser Bow",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 2,
+    "useDuration": 30,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

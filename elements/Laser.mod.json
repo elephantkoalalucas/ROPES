@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:LaserBow"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 6.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "laser.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

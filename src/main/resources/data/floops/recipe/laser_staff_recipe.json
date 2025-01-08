@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "floops:laser_crystal"
+    },
+    "b": {
+      "item": "floops:laser_handle"
+    }
+  },
+  "result": {
+    "id": "floops:laser_staff",
+    "count": 1
+  }
+}

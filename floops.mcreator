@@ -1,0 +1,507 @@
+{
+  "mod_elements": [
+    {
+      "name": "LaserBow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/laser_bow.json",
+          "src/main/java/net/mcreator/floops/item/LaserBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Laser",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/entity/LaserEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserBlade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/LaserBladeItem.java",
+          "src/main/resources/assets/floops/models/item/laser_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/LaserCrystalItem.java",
+          "src/main/resources/assets/floops/models/item/laser_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/LaserHandleItem.java",
+          "src/main/resources/assets/floops/models/item/laser_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserBladeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/laser_blade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserSoldier",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_soldier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/laser_soldier_spawn_egg.json",
+          "src/main/java/net/mcreator/floops/client/renderer/LaserSoldierRenderer.java",
+          "src/main/java/net/mcreator/floops/entity/LaserSoldierEntity.java",
+          "src/main/resources/data/floops/neoforge/biome_modifier/laser_soldier_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Laserscorpion",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserscorpion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/neoforge/biome_modifier/laserscorpion_biome_modifier.json",
+          "src/main/resources/assets/floops/models/item/laserscorpion_spawn_egg.json",
+          "src/main/java/net/mcreator/floops/client/renderer/LaserscorpionRenderer.java",
+          "src/main/java/net/mcreator/floops/entity/LaserscorpionEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/silver_ingot.json",
+          "src/main/java/net/mcreator/floops/item/SilverIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/data/floops/loot_table/blocks/silver_ore.json",
+          "src/main/resources/assets/floops/models/item/silver_ore.json",
+          "src/main/resources/assets/floops/blockstates/silver_ore.json",
+          "src/main/resources/data/floops/neoforge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/data/floops/worldgen/configured_feature/silver_ore.json",
+          "src/main/java/net/mcreator/floops/block/SilverOreBlock.java",
+          "src/main/resources/assets/floops/models/block/silver_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/silver_block.json",
+          "src/main/resources/data/floops/loot_table/blocks/silver_block.json",
+          "src/main/resources/assets/floops/blockstates/silver_block.json",
+          "src/main/resources/assets/floops/models/block/silver_block.json",
+          "src/main/java/net/mcreator/floops/block/SilverBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/SilverPickaxeItem.java",
+          "src/main/resources/assets/floops/models/item/silver_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/SilverAxeItem.java",
+          "src/main/resources/assets/floops/models/item/silver_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/SilverSwordItem.java",
+          "src/main/resources/assets/floops/models/item/silver_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/SilverShovelItem.java",
+          "src/main/resources/assets/floops/models/item/silver_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/silver_hoe.json",
+          "src/main/java/net/mcreator/floops/item/SilverHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/silver_armor_helmet.json",
+          "src/main/resources/assets/floops/models/item/silver_armor_chestplate.json",
+          "src/main/resources/assets/floops/models/item/silver_armor_leggings.json",
+          "src/main/resources/assets/floops/models/item/silver_armor_boots.json",
+          "src/main/java/net/mcreator/floops/item/SilverArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/silver_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserStaff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floops/item/LaserStaffItem.java",
+          "src/main/resources/assets/floops/models/item/laser_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserStaffRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_staff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floops/recipe/laser_staff_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LT",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SilverBlock",
+      "~CUSTOM:SilverOre"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:SilverArmor.body"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SilverPickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SilverHoe"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SilverBlock",
+      "~CUSTOM:SilverOre"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SilverAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SilverSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:SilverShovel"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:SilverArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:SilverArmor.boots"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:LaserSoldier"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:SilverArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.floops.silver_ore": "Silver Ore",
+      "item.floops.laser_handle": "Laser Handle",
+      "item.floops.silver_armor_leggings": "Silver Leggings",
+      "item.floops.laser_bow": "Laser Bow",
+      "item.floops.laser_soldier_spawn_egg": "Laser Soldier Spawn Egg",
+      "entity.floops.laser_soldier": "Laser Soldier",
+      "item.floops.silver_sword": "Silver Sword",
+      "item.floops.silver_hoe": "Silver Hoe",
+      "block.floops.silver_block": "Block of Silver",
+      "item.floops.silver_armor_boots": "Silver Boots",
+      "item.floops.silver_armor_chestplate": "Silver Chestplate",
+      "item.floops.laser_crystal": "Laser Crystal",
+      "item.floops.laser_blade": "Laser Blade",
+      "item.floops.silver_pickaxe": "Silver Pickaxe",
+      "item.floops.silver_ingot": "Silver",
+      "entity.floops.laserscorpion": "Laser scorpion",
+      "item_group.floops.lt": "LT",
+      "item.floops.silver_armor_helmet": "Silver Helmet",
+      "item.floops.silver_shovel": "Silver Shovel",
+      "item.floops.silver_axe": "Silver Axe",
+      "item.floops.laser_staff": "Laser Staff",
+      "item.floops.laserscorpion_spawn_egg": "Laser scorpion Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "floops",
+    "modName": "FLOOPS",
+    "version": "1.0.0",
+    "author": "lucas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.floops"
+  },
+  "mcreatorVersion": 202400342716
+}
