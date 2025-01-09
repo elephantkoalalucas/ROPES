@@ -33,8 +33,8 @@
       "registry_name": "laser_blade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/floops/item/LaserBladeItem.java",
-          "src/main/resources/assets/floops/models/item/laser_blade.json"
+          "src/main/resources/assets/floops/models/item/laser_blade.json",
+          "src/main/java/net/mcreator/floops/item/LaserBladeItem.java"
         ]
       }
     },
@@ -426,6 +426,19 @@
           "src/main/resources/assets/floops/models/item/item_1.json"
         ]
       }
+    },
+    {
+      "name": "Item2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floops/models/item/item_2.json",
+          "src/main/java/net/mcreator/floops/item/Item2Item.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -476,24 +489,25 @@
       "block.floops.silver_ore": "Silver Ore",
       "item.floops.laser_handle": "Laser Handle",
       "item.floops.silver_armor_leggings": "Silver Leggings",
-      "item.floops.laser_bow": "Laser Bow",
       "item.floops.laser_soldier_spawn_egg": "Laser Soldier Spawn Egg",
-      "entity.floops.laser_soldier": "Laser Soldier",
-      "item.floops.silver_sword": "Silver Sword",
-      "item.floops.silver_hoe": "Silver Hoe",
       "block.floops.silver_block": "Block of Silver",
-      "item.floops.silver_armor_boots": "Silver Boots",
       "item.floops.silver_armor_chestplate": "Silver Chestplate",
-      "item.floops.laser_crystal": "Laser Crystal",
-      "item.floops.item_1": "Item 1",
-      "item.floops.laser_blade": "Laser Blade",
       "item.floops.silver_pickaxe": "Silver Pickaxe",
-      "item.floops.silver_ingot": "Silver",
       "entity.floops.laserscorpion": "Laser scorpion",
       "item_group.floops.lt": "LT",
       "item.floops.silver_armor_helmet": "Silver Helmet",
-      "item.floops.silver_shovel": "Silver Shovel",
       "item.floops.silver_axe": "Silver Axe",
+      "item.floops.laser_bow": "Laser Bow",
+      "entity.floops.laser_soldier": "Laser Soldier",
+      "item.floops.silver_sword": "Silver Sword",
+      "item.floops.silver_hoe": "Silver Hoe",
+      "item.floops.silver_armor_boots": "Silver Boots",
+      "item.floops.item_2": "Item 2",
+      "item.floops.laser_crystal": "Laser Crystal",
+      "item.floops.item_1": "Item 1",
+      "item.floops.laser_blade": "Laser Blade",
+      "item.floops.silver_ingot": "Silver",
+      "item.floops.silver_shovel": "Silver Shovel",
       "item.floops.laser_staff": "Laser Staff",
       "item.floops.laserscorpion_spawn_egg": "Laser scorpion Spawn Egg"
     }

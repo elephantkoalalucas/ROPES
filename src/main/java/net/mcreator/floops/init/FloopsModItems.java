@@ -25,6 +25,7 @@ import net.mcreator.floops.item.LaserHandleItem;
 import net.mcreator.floops.item.LaserCrystalItem;
 import net.mcreator.floops.item.LaserBowItem;
 import net.mcreator.floops.item.LaserBladeItem;
+import net.mcreator.floops.item.Item2Item;
 import net.mcreator.floops.item.Item1Item;
 import net.mcreator.floops.FloopsMod;
 
@@ -50,6 +51,7 @@ public class FloopsModItems {
 	public static final DeferredItem<Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", SilverArmorItem.Boots::new);
 	public static final DeferredItem<Item> LASER_STAFF = REGISTRY.register("laser_staff", LaserStaffItem::new);
 	public static final DeferredItem<Item> ITEM_1 = REGISTRY.register("item_1", Item1Item::new);
+	public static final DeferredItem<Item> ITEM_2 = REGISTRY.register("item_2", Item2Item::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
